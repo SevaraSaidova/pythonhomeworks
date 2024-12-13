@@ -1,0 +1,5 @@
+a=str(input("Enter a sentence: "))
+replace=str(input("Word to replace: "))
+replacement=str(input("Word to replace with: "))
+output=a.replace(replace, replacement)
+print(f"Formed sentence : {output}")

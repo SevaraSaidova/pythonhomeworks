@@ -1,0 +1,7 @@
+a=float(input("First number: "))
+b=float(input("Second number: "))
+c=float(input("Tird number: "))
+l=max(a,b,c)
+s=min(a,b,c)
+print(f"Largest number: {l}")
+print(f"Smallest number: {s}")
